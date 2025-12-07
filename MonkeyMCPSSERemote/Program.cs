@@ -19,6 +19,6 @@ builder.Services.AddSingleton<MonkeyLocationService>();
 
 var app = builder.Build();
 
-app.MapMcp();
+app.MapMcp("/espo-mcp");
 
 app.Run();
