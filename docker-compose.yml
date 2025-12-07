@@ -1,0 +1,6 @@
+services:
+  monkeymcpsseremote:
+    image: ${DOCKER_REGISTRY-}monkeymcpsseremote
+    build:
+      context: .
+      dockerfile: MonkeyMCPSSERemote/Dockerfile
